@@ -7,64 +7,58 @@ Raise PO on your supplier and it gets seamlessly converted as Sales Order in Dis
 With Agrica Retailer, you can easily onboard your business, run and grow your business. With a few clicks you can complete a GST Invoice. 
 
 
-Business Requirement: Agrica Insight Application.
-Description:		   Agrica insight application to analyze and monitor retailer activites through visualization in
-                                   tableau according to day, week, month & year wise.
-Activities:			   Developed below dashboards for agrica insight application in tableau.
-                                   1. Retailer Dashboard: Total Retailers, Total Distributors, Total Manufacturers, Total Customers,
-                                       Total Distributors by Retailers, Invoice size/count of invoices by state, Total number of
-                                       retailers by state, Total number of farmers by state, Total Count of Retailer login, 
-                                       Total Revenue.
-                                   2. Goods Movement Dashboard: Pending Purchase Order for Shipment, Goods Shipped During
-                                       a Period, Purchases During a Period, Goods Received During a Period, Goods in Transit.
-                                   3. Sales Dashboard: YTD Sales, PYTD Sales, MTD Sales, PYMTD Sales, Top 10 retailer sales, 
-                                       Top 10 retailer sales by state, Bottom 10 retailer sales, Bottom 10 retailer
-                                       sales by state, Product category sales by state, State-Wise sales,
-				       Farmer purchase report.
-                                   4. Stock Detail Dashboard: Stocks on Hand, Stock Expires within 10 days, Expired Stocks.
-                                   5. Supply Chain Management Dashboard: Manufacturers Lead Time(Days), Distributors Lead
-                                       Time (Days), Manufacturers Delivery Status, Distributors Delivery Status.
-                                   6. Mentor Dashboard: Total Mentors, Total Mentors by State, Total Visits, Total Visit by Mentor
-                                       (Weekly), Mentors visit by Retailer.
+Business Requirement:	Agrica Insight Application.
+Description:		Agrica insight application to analyze and monitor retailer activites through visualization in tableau according to day, week, month & year wise.
+Activities:		Developed below dashboards for agrica insight application in tableau.
+         			1. Retailer Dashboard: Total Retailers, Total Distributors, Total Manufacturers, Total Customers, Total Distributors by Retailers, 
+				   Invoice size/count of invoices by state, Total number of retailers by state, Total number of farmers by state, 
+				   Total Count of Retailer login, Total Revenue.
+                               	2. Goods Movement Dashboard: Pending Purchase Order for Shipment, Goods Shipped During a Period, Purchases During a Period, 
+				   Goods Received During a Period, Goods in Transit.
+                                3. Sales Dashboard: YTD Sales, PYTD Sales, MTD Sales, PYMTD Sales, Top 10 retailer sales, Top 10 retailer sales by state, 
+				   Bottom 10 retailer sales, Bottom 10 retailer sales by state, Product category sales by state, State-Wise sales, 
+				   Farmer purchase report.
+                                4. Stock Detail Dashboard: Stocks on Hand, Stock Expires within 10 days, Expired Stocks.
+                                5. Supply Chain Management Dashboard: Manufacturers Lead Time(Days), Distributors Lead Time (Days), Manufacturers Delivery Status, 
+				   Distributors Delivery Status.
+                                6. Mentor Dashboard: Total Mentors, Total Mentors by State, Total Visits, Total Visit by Mentor (Weekly), Mentors visit by Retailer.
 
-Business Requirement: Agrica Integration to Bayer DK Insightm(Bayer Analytics System).
-Description: 		   Agrica data platform will push the data from ERP Lite for distributors and POS for retailers
-                                   system to Bayer DK Insight system using APIs. 
-			           Data with respect to details of retailers and their total number of customers, products vended
-                                   by retailer to customers and products returned by customer to retailer, products procured from
-                                   distributors by retailer and products returned by retailer to distributors and current products of
-                                   retailers are pushed to Bayer DK Insight system for analysis of downstream performance of
-                                   distributors and retailers.
-Activities:			  Developed procedues for below points: 
-				  1. Details of retailers and their total number of customers.
-				  2. Products vended by retailer to customers and products returned by customer to retailer.
-				  3. Products procured from distributors by retailer and products returned by retailer to
-                                      distributors.
-				  4. Details of current products of retailers.
 
-Business Requirement: Agrica Integration to Bayer Small Holding Farmers(SHDP) system.
-Description: 		   Agrica data platform will push the data belonging to farmer purchases from retailers which has
-                                   been recorded in agrica POS system to Bayer SHDP team to gather and analyze data of small
-                                   holding farmers called SHDP.
-				   Data with respect to personal, contact, location and purchases of farmers details are pushed to
-                                   Bayer SHDP team.
-Activities:			  Developed procedues for below points: 
-				  1. Personal details of farmer.
-				  2. Contact details of farmer.
-				  3. Location details of farmer.
-				  4. Purchased product detials of farmer.
+Business Requirement:	Agrica Integration to Bayer DK Insightm(Bayer Analytics System).
+Description: 		Agrica data platform will push the data from ERP Lite for distributors and POS for retailers system to Bayer DK Insight system using APIs. 
+			Data with respect to details of retailers and their total number of customers, products vended by retailer to customers and products returned 
+			by customer to retailer, products procured from distributors by retailer and products returned by retailer to distributors and current products 
+			of retailers are pushed to Bayer DK Insight system for analysis of downstream performance of distributors and retailers.
+Activities:		Developed procedues for below points: 
+				1. Details of retailers and their total number of customers.
+				2. Products vended by retailer to customers and products returned by customer to retailer.
+				3. Products procured from distributors by retailer and products returned by retailer to distributors.
+				4. Details of current products of retailers.
 
-Business Requirement: On-board Automation Tool for Agrica.
-Description:		   On-board Automation Tool is Agrica internal tool to on-board new retailers & distributors,
-                                   update on-boarded retailers & distributors details, insert new products of retailers with invoice
-                                   number generation & update on-boarded retailer product details.
-Activities:			  Developed procedues for below points: 
-				 1. On-board new retailers & distributors.
-				 2. Update on-boarded retailers & distributors details.
-				 3. Insert new products of retailers with invoice number generation.
-				 4. Update on-boarded retailer product details.
 
-Business Requirement: Data Migration from Agrica POS system to ERP Lite system.
-Description:		   Migrating data from agrica POS system to ERP Lite system to merge retailers and distributors
-                                   data in ERP Lite system.
-Activities:			  Developed insert script for migrating data from one place to another.
+Business Requirement: 	Agrica Integration to Bayer Small Holding Farmers(SHDP) system.
+Description: 		Agrica data platform will push the data belonging to farmer purchases from retailers which has been recorded in agrica POS system to 
+			Bayer SHDP team to gather and analyze data of small holding farmers called SHDP.
+			Data with respect to personal, contact, location and purchases of farmers details are pushed to Bayer SHDP team.
+Activities:		Developed procedues for below points: 
+				1. Personal details of farmer.
+				2. Contact details of farmer.
+				3. Location details of farmer.
+				4. Purchased product detials of farmer.
+
+
+Business Requirement: 	On-board Automation Tool for Agrica.
+Description:		On-board Automation Tool is Agrica internal tool to on-board new retailers & distributors, update on-boarded retailers & distributors details, 
+			insert new products of retailers with invoice number generation & update on-boarded retailer product details.
+Activities:		Developed procedues for below points: 
+				1. On-board new retailers & distributors.
+				2. Update on-boarded retailers & distributors details.
+				3. Insert new products of retailers with invoice number generation.
+				4. Update on-boarded retailer product details.
+
+
+Business Requirement:	Data Migration from Agrica POS system to ERP Lite system.
+Description:		Migrating data from agrica POS system to ERP Lite system to merge retailers and distributors data in ERP Lite system.
+Activities:		Developed insert script for migrating data from one place to another.
+				1. Develop insert queries to load data.
+				2. Develop select queries to extract and manipulate/transform data according to the requirements.
